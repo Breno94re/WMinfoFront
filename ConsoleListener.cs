@@ -22,7 +22,7 @@ namespace WMinfo_Front
             #region HTTPLISTEN
             try
             {
-                web.Prefixes.Add("http://*:8080/PC1CONSOLE/");
+                web.Prefixes.Add("http://*:9090/PC1CONSOLE/");
                 web.Start();
                 HttpListenerContext context = web.GetContext();
                 string ipacesso = context.Request.RemoteEndPoint.ToString();
@@ -96,11 +96,9 @@ namespace WMinfo_Front
                 web.Stop();
 
             }
-            catch (SystemException exception)
+            catch 
             {
-
             }
-            web.Stop();
             #endregion
             await Task.Delay(100);
 

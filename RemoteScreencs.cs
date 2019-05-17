@@ -292,7 +292,7 @@ namespace WMinfo_Front
             Home.pcform2.Dispose();
             Home.pcform2 = null;
             Home.openform2 = false;
-            ListenerPC1.responses = "discremote";
+            ListenerPC1.SetResponse("discremote");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -302,7 +302,7 @@ namespace WMinfo_Front
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ListenerPC1.responses = "discremote";
+            ListenerPC1.SetResponse("discremote");
             dropcon = true;
             if (serverunning == false)
             {

@@ -192,7 +192,7 @@ namespace WMinfo_Front
             ConsoleListener.receiving = true;
 
             bool firstime = true;
-            ListenerPC1.responses = "Console*"+command;
+            ListenerPC1.SetResponse("Console*" + command);
             this.BeginInvoke((MethodInvoker)delegate ()
             {
                 richTextBox1.AppendText(String.Format("{0}{1}", "\n\n-Waiting on Console Response, this may take a while...", Environment.NewLine));

@@ -160,7 +160,7 @@ namespace WMinfo_Front
 
         private void button12_Click(object sender, EventArgs e)
         {
-            ListenerPC1.responses = "remotepc*low";
+            ListenerPC1.SetResponse("remotepc*low");
 
             open2 = true;
 

@@ -23,6 +23,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,12 +34,19 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>aenkb - Copy.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CircularProgressBar, Version=2.7.0.7, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
       <HintPath>..\packages\CircularProgressBar.2.7.0.7\lib\net40\CircularProgressBar.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -81,6 +89,12 @@
     <Compile Include="RemoteScreencs.Designer.cs">
       <DependentUpon>RemoteScreencs.cs</DependentUpon>
     </Compile>
+    <Compile Include="StatsChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StatsChart.Designer.cs">
+      <DependentUpon>StatsChart.cs</DependentUpon>
+    </Compile>
     <Compile Include="TaskManagerPC1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,9 +124,15 @@
     <EmbeddedResource Include="RemoteScreencs.resx">
       <DependentUpon>RemoteScreencs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StatsChart.resx">
+      <DependentUpon>StatsChart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TaskManagerPC1.resx">
       <DependentUpon>TaskManagerPC1.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -282,6 +302,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marquee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aenkb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wminfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aenkb - Copy.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

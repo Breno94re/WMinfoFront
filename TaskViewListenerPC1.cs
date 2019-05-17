@@ -93,15 +93,10 @@ namespace WMinfo_Front
             }
             catch (SystemException exception)
             {
-
-
                 if (exception is HttpListenerException)
                 {
 
                 }
-
-
-
                 web.Stop();
 
             }

@@ -29,99 +29,50 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node5");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node8");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node9");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node22");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Clock\'s", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node0");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Clock\'s", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode2,
-            treeNode3,
-            treeNode4,
+            treeNode3});
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node21");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Temperatures", new System.Windows.Forms.TreeNode[] {
             treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node11");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node12");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node13");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node14");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Node21");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Temperatures", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node17");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node18");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Load", new System.Windows.Forms.TreeNode[] {
             treeNode7,
-            treeNode8,
-            treeNode9,
-            treeNode10,
-            treeNode11});
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node15");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node16");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Node17");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Node18");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Node19");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Load", new System.Windows.Forms.TreeNode[] {
-            treeNode13,
-            treeNode14,
-            treeNode15,
-            treeNode16,
-            treeNode17});
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("CPU", new System.Windows.Forms.TreeNode[] {
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Fan Speed");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Fan", new System.Windows.Forms.TreeNode[] {
+            treeNode10});
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("GPU", new System.Windows.Forms.TreeNode[] {
+            treeNode4,
             treeNode6,
-            treeNode12,
-            treeNode18});
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Node0");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Clock\'s", new System.Windows.Forms.TreeNode[] {
-            treeNode20,
-            treeNode21,
-            treeNode22});
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Node21");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Temperatures", new System.Windows.Forms.TreeNode[] {
-            treeNode24});
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Node17");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Node18");
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Load", new System.Windows.Forms.TreeNode[] {
-            treeNode26,
-            treeNode27});
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Fan Speed");
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Fan", new System.Windows.Forms.TreeNode[] {
-            treeNode29});
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("GPU", new System.Windows.Forms.TreeNode[] {
-            treeNode23,
-            treeNode25,
-            treeNode28,
-            treeNode30});
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Total Ram");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Free Ram");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("RAM", new System.Windows.Forms.TreeNode[] {
-            treeNode32,
-            treeNode33});
+            treeNode9,
+            treeNode11});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Total Ram");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Free Ram");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("RAM", new System.Windows.Forms.TreeNode[] {
+            treeNode13,
+            treeNode14});
             this.hname1 = new System.Windows.Forms.Label();
             this.pingt = new System.Windows.Forms.Label();
             this.pconoff = new System.Windows.Forms.Label();
             this.CPUP = new System.Windows.Forms.Panel();
             this.pname = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button7 = new System.Windows.Forms.Button();
             this.CPUTV = new System.Windows.Forms.TreeView();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.chartcpuload = new CircularProgressBar.CircularProgressBar();
             this.charcputemp = new CircularProgressBar.CircularProgressBar();
             this.GPUP = new System.Windows.Forms.Panel();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.gname = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
             this.GPUTV = new System.Windows.Forms.TreeView();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.chartgpuload = new CircularProgressBar.CircularProgressBar();
             this.chargputemp = new CircularProgressBar.CircularProgressBar();
-            this.gpunotdetected = new System.Windows.Forms.PictureBox();
             this.HDDP = new System.Windows.Forms.Panel();
             this.hddt = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
             this.HDDTV = new System.Windows.Forms.TreeView();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.HDD3lifechart = new CircularProgressBar.CircularProgressBar();
             this.HDD3storagechart = new CircularProgressBar.CircularProgressBar();
             this.HDD2lifechart = new CircularProgressBar.CircularProgressBar();
@@ -129,6 +80,14 @@
             this.HDD1lifechart = new CircularProgressBar.CircularProgressBar();
             this.HDD1storagechart = new CircularProgressBar.CircularProgressBar();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.uploadchart = new CircularProgressBar.CircularProgressBar();
+            this.downloadchart = new CircularProgressBar.CircularProgressBar();
+            this.RAMP = new System.Windows.Forms.Panel();
+            this.moboname = new System.Windows.Forms.Label();
+            this.RAMTV = new System.Windows.Forms.TreeView();
+            this.Ramchart = new CircularProgressBar.CircularProgressBar();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -136,38 +95,42 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.uploadchart = new CircularProgressBar.CircularProgressBar();
-            this.downloadchart = new CircularProgressBar.CircularProgressBar();
-            this.RAMP = new System.Windows.Forms.Panel();
-            this.moboname = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.gpunotdetected = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.button9 = new System.Windows.Forms.Button();
-            this.RAMTV = new System.Windows.Forms.TreeView();
-            this.Ramchart = new CircularProgressBar.CircularProgressBar();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pingi = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.button12 = new System.Windows.Forms.Button();
             this.CPUP.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.GPUP.SuspendLayout();
+            this.HDDP.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.RAMP.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpunotdetected)).BeginInit();
-            this.HDDP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel5.SuspendLayout();
-            this.RAMP.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pingi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -234,33 +197,6 @@
             this.pname.Text = "model\'n brand";
             this.pname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::WMinfo_Front.Properties.Resources.intel;
-            this.pictureBox4.Location = new System.Drawing.Point(72, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(70, 73);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 68;
-            this.pictureBox4.TabStop = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
-            this.button7.BackgroundImage = global::WMinfo_Front.Properties.Resources.BT_double_arrow_left128x___Copy;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(3, 79);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(258, 19);
-            this.button7.TabIndex = 67;
-            this.button7.TabStop = false;
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
             // CPUTV
             // 
             this.CPUTV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(49)))), ((int)(((byte)(56)))));
@@ -269,72 +205,9 @@
             this.CPUTV.ForeColor = System.Drawing.Color.White;
             this.CPUTV.Location = new System.Drawing.Point(0, 104);
             this.CPUTV.Name = "CPUTV";
-            treeNode1.Name = "Node5";
-            treeNode1.Text = "Node5";
-            treeNode2.Name = "Node7";
-            treeNode2.Text = "Node7";
-            treeNode3.Name = "Node8";
-            treeNode3.Text = "Node8";
-            treeNode4.Name = "Node9";
-            treeNode4.Text = "Node9";
-            treeNode5.Name = "Node22";
-            treeNode5.Text = "Node22";
-            treeNode6.Name = "Clock\'s";
-            treeNode6.Text = "Clock\'s";
-            treeNode7.Name = "Node11";
-            treeNode7.Text = "Node11";
-            treeNode8.Name = "Node12";
-            treeNode8.Text = "Node12";
-            treeNode9.Name = "Node13";
-            treeNode9.Text = "Node13";
-            treeNode10.Name = "Node14";
-            treeNode10.Text = "Node14";
-            treeNode11.Name = "Node21";
-            treeNode11.Text = "Node21";
-            treeNode12.Name = "Temperatures";
-            treeNode12.Text = "Temperatures";
-            treeNode13.Name = "Node15";
-            treeNode13.Text = "Node15";
-            treeNode14.Name = "Node16";
-            treeNode14.Text = "Node16";
-            treeNode15.Name = "Node17";
-            treeNode15.Text = "Node17";
-            treeNode16.Name = "Node18";
-            treeNode16.Text = "Node18";
-            treeNode17.Name = "Node19";
-            treeNode17.Text = "Node19";
-            treeNode18.Name = "Load";
-            treeNode18.Text = "Load";
-            treeNode19.Name = "CPU";
-            treeNode19.Text = "CPU";
-            this.CPUTV.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode19});
             this.CPUTV.Scrollable = false;
             this.CPUTV.Size = new System.Drawing.Size(264, 23);
             this.CPUTV.TabIndex = 61;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
-            this.pictureBox8.Image = global::WMinfo_Front.Properties.Resources.exclamation_mark__1_;
-            this.pictureBox8.Location = new System.Drawing.Point(38, 42);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(17, 17);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 57;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Visible = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::WMinfo_Front.Properties.Resources.cpu;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(63, 76);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 56;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // chartcpuload
             // 
@@ -365,7 +238,7 @@
             this.chartcpuload.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
             this.chartcpuload.SuperscriptText = "";
             this.chartcpuload.TabIndex = 62;
-            this.chartcpuload.Text = "100%";
+            this.chartcpuload.Text = "?%";
             this.chartcpuload.TextMargin = new System.Windows.Forms.Padding(0);
             this.toolTip1.SetToolTip(this.chartcpuload, "CPU Load");
             this.chartcpuload.Value = 68;
@@ -399,7 +272,7 @@
             this.charcputemp.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
             this.charcputemp.SuperscriptText = "";
             this.charcputemp.TabIndex = 63;
-            this.charcputemp.Text = "100ºC";
+            this.charcputemp.Text = "?ºC";
             this.charcputemp.TextMargin = new System.Windows.Forms.Padding(0);
             this.toolTip1.SetToolTip(this.charcputemp, "CPU temperatures");
             this.charcputemp.Value = 68;
@@ -421,16 +294,6 @@
             this.GPUP.Size = new System.Drawing.Size(264, 569);
             this.GPUP.TabIndex = 58;
             // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::WMinfo_Front.Properties.Resources.nvidia;
-            this.pictureBox14.Location = new System.Drawing.Point(82, 3);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(55, 72);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 69;
-            this.pictureBox14.TabStop = false;
-            // 
             // gname
             // 
             this.gname.Font = new System.Drawing.Font("Lucida Sans", 9.5F, System.Drawing.FontStyle.Bold);
@@ -442,23 +305,6 @@
             this.gname.Text = "model \'n brand";
             this.gname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
-            this.button6.BackgroundImage = global::WMinfo_Front.Properties.Resources.BT_double_arrow_left128x___Copy;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(3, 79);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(258, 19);
-            this.button6.TabIndex = 66;
-            this.button6.TabStop = false;
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
             // GPUTV
             // 
             this.GPUTV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(49)))), ((int)(((byte)(56)))));
@@ -467,58 +313,36 @@
             this.GPUTV.ForeColor = System.Drawing.Color.White;
             this.GPUTV.Location = new System.Drawing.Point(0, 104);
             this.GPUTV.Name = "GPUTV";
-            treeNode20.Name = "Node0";
-            treeNode20.Text = "Node0";
-            treeNode21.Name = "Node1";
-            treeNode21.Text = "Node1";
-            treeNode22.Name = "Node2";
-            treeNode22.Text = "Node2";
-            treeNode23.Name = "Clock\'s";
-            treeNode23.Text = "Clock\'s";
-            treeNode24.Name = "Node21";
-            treeNode24.Text = "Node21";
-            treeNode25.Name = "Temperatures";
-            treeNode25.Text = "Temperatures";
-            treeNode26.Name = "Node17";
-            treeNode26.Text = "Node17";
-            treeNode27.Name = "Node18";
-            treeNode27.Text = "Node18";
-            treeNode28.Name = "Load";
-            treeNode28.Text = "Load";
-            treeNode29.Name = "Fan Speed";
-            treeNode29.Text = "Fan Speed";
-            treeNode30.Name = "Fan";
-            treeNode30.Text = "Fan";
-            treeNode31.Name = "GPU";
-            treeNode31.Text = "GPU";
+            treeNode1.Name = "Node0";
+            treeNode1.Text = "Node0";
+            treeNode2.Name = "Node1";
+            treeNode2.Text = "Node1";
+            treeNode3.Name = "Node2";
+            treeNode3.Text = "Node2";
+            treeNode4.Name = "Clock\'s";
+            treeNode4.Text = "Clock\'s";
+            treeNode5.Name = "Node21";
+            treeNode5.Text = "Node21";
+            treeNode6.Name = "Temperatures";
+            treeNode6.Text = "Temperatures";
+            treeNode7.Name = "Node17";
+            treeNode7.Text = "Node17";
+            treeNode8.Name = "Node18";
+            treeNode8.Text = "Node18";
+            treeNode9.Name = "Load";
+            treeNode9.Text = "Load";
+            treeNode10.Name = "Fan Speed";
+            treeNode10.Text = "Fan Speed";
+            treeNode11.Name = "Fan";
+            treeNode11.Text = "Fan";
+            treeNode12.Name = "GPU";
+            treeNode12.Text = "GPU";
             this.GPUTV.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode31});
+            treeNode12});
             this.GPUTV.Scrollable = false;
             this.GPUTV.Size = new System.Drawing.Size(264, 23);
             this.GPUTV.TabIndex = 62;
             this.GPUTV.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.GPUTV_AfterSelect);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
-            this.pictureBox9.Image = global::WMinfo_Front.Properties.Resources.exclamation_mark__1_;
-            this.pictureBox9.Location = new System.Drawing.Point(59, 5);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(17, 17);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 58;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Visible = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::WMinfo_Front.Properties.Resources.graphic_card;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(73, 72);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 56;
-            this.pictureBox5.TabStop = false;
             // 
             // chartgpuload
             // 
@@ -549,7 +373,7 @@
             this.chartgpuload.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
             this.chartgpuload.SuperscriptText = "";
             this.chartgpuload.TabIndex = 64;
-            this.chartgpuload.Text = "100%";
+            this.chartgpuload.Text = "?%";
             this.chartgpuload.TextMargin = new System.Windows.Forms.Padding(0);
             this.toolTip1.SetToolTip(this.chartgpuload, "GPU Load");
             this.chartgpuload.Value = 68;
@@ -583,21 +407,10 @@
             this.chargputemp.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
             this.chargputemp.SuperscriptText = "";
             this.chargputemp.TabIndex = 65;
-            this.chargputemp.Text = "100ºC";
+            this.chargputemp.Text = "?ºC";
             this.chargputemp.TextMargin = new System.Windows.Forms.Padding(0);
             this.toolTip1.SetToolTip(this.chargputemp, "GPU temperatures");
             this.chargputemp.Value = 68;
-            // 
-            // gpunotdetected
-            // 
-            this.gpunotdetected.Image = global::WMinfo_Front.Properties.Resources.Nocgpu__1_;
-            this.gpunotdetected.Location = new System.Drawing.Point(0, -1);
-            this.gpunotdetected.Name = "gpunotdetected";
-            this.gpunotdetected.Size = new System.Drawing.Size(264, 569);
-            this.gpunotdetected.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gpunotdetected.TabIndex = 70;
-            this.gpunotdetected.TabStop = false;
-            this.gpunotdetected.Visible = false;
             // 
             // HDDP
             // 
@@ -629,23 +442,6 @@
             this.hddt.Text = "HDD1:\r\nHDD2:\r\nHDD3:";
             this.hddt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
-            this.button8.BackgroundImage = global::WMinfo_Front.Properties.Resources.BT_double_arrow_left128x___Copy;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(3, 79);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(258, 19);
-            this.button8.TabIndex = 70;
-            this.button8.TabStop = false;
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
             // HDDTV
             // 
             this.HDDTV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(49)))), ((int)(((byte)(56)))));
@@ -658,28 +454,6 @@
             this.HDDTV.Size = new System.Drawing.Size(264, 23);
             this.HDDTV.TabIndex = 70;
             this.HDDTV.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.HDDTV_AfterSelect);
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
-            this.pictureBox11.Image = global::WMinfo_Front.Properties.Resources.exclamation_mark__1_;
-            this.pictureBox11.Location = new System.Drawing.Point(41, 10);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(17, 17);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 59;
-            this.pictureBox11.TabStop = false;
-            this.pictureBox11.Visible = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::WMinfo_Front.Properties.Resources.hard_disk;
-            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(63, 72);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 56;
-            this.pictureBox6.TabStop = false;
             // 
             // HDD3lifechart
             // 
@@ -711,10 +485,10 @@
             this.HDD3lifechart.SuperscriptMargin = new System.Windows.Forms.Padding(-30, -5, 0, 0);
             this.HDD3lifechart.SuperscriptText = "HDD3";
             this.HDD3lifechart.TabIndex = 75;
-            this.HDD3lifechart.Text = "100%";
+            this.HDD3lifechart.Text = "?%";
             this.HDD3lifechart.TextMargin = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.toolTip1.SetToolTip(this.HDD3lifechart, "HDD 2 Life");
-            this.HDD3lifechart.Value = 20;
+            this.HDD3lifechart.Value = 68;
             this.HDD3lifechart.Visible = false;
             // 
             // HDD3storagechart
@@ -746,10 +520,10 @@
             this.HDD3storagechart.SuperscriptMargin = new System.Windows.Forms.Padding(-28, -5, 0, 0);
             this.HDD3storagechart.SuperscriptText = "HDD3";
             this.HDD3storagechart.TabIndex = 74;
-            this.HDD3storagechart.Text = "100%";
+            this.HDD3storagechart.Text = "?%";
             this.HDD3storagechart.TextMargin = new System.Windows.Forms.Padding(17, 0, 0, 0);
             this.toolTip1.SetToolTip(this.HDD3storagechart, "HDD 3 Storage");
-            this.HDD3storagechart.Value = 20;
+            this.HDD3storagechart.Value = 68;
             this.HDD3storagechart.Visible = false;
             // 
             // HDD2lifechart
@@ -782,10 +556,10 @@
             this.HDD2lifechart.SuperscriptMargin = new System.Windows.Forms.Padding(-30, -5, 0, 0);
             this.HDD2lifechart.SuperscriptText = "HDD2";
             this.HDD2lifechart.TabIndex = 73;
-            this.HDD2lifechart.Text = "100%";
+            this.HDD2lifechart.Text = "?%";
             this.HDD2lifechart.TextMargin = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.toolTip1.SetToolTip(this.HDD2lifechart, "HDD 2 Life");
-            this.HDD2lifechart.Value = 20;
+            this.HDD2lifechart.Value = 68;
             this.HDD2lifechart.Visible = false;
             // 
             // HDD2storagechart
@@ -817,10 +591,10 @@
             this.HDD2storagechart.SuperscriptMargin = new System.Windows.Forms.Padding(-28, -5, 0, 0);
             this.HDD2storagechart.SuperscriptText = "HDD2";
             this.HDD2storagechart.TabIndex = 72;
-            this.HDD2storagechart.Text = "100%";
+            this.HDD2storagechart.Text = "?%";
             this.HDD2storagechart.TextMargin = new System.Windows.Forms.Padding(17, 0, 0, 0);
             this.toolTip1.SetToolTip(this.HDD2storagechart, "HDD 2 Storage");
-            this.HDD2storagechart.Value = 20;
+            this.HDD2storagechart.Value = 68;
             this.HDD2storagechart.Visible = false;
             // 
             // HDD1lifechart
@@ -853,10 +627,10 @@
             this.HDD1lifechart.SuperscriptMargin = new System.Windows.Forms.Padding(-30, -5, 0, 0);
             this.HDD1lifechart.SuperscriptText = "HDD1";
             this.HDD1lifechart.TabIndex = 71;
-            this.HDD1lifechart.Text = "100%";
+            this.HDD1lifechart.Text = "?%";
             this.HDD1lifechart.TextMargin = new System.Windows.Forms.Padding(13, 0, 0, 0);
             this.toolTip1.SetToolTip(this.HDD1lifechart, "HDD 1 Life");
-            this.HDD1lifechart.Value = 20;
+            this.HDD1lifechart.Value = 68;
             this.HDD1lifechart.Visible = false;
             // 
             // HDD1storagechart
@@ -888,10 +662,10 @@
             this.HDD1storagechart.SuperscriptMargin = new System.Windows.Forms.Padding(-28, -5, 0, 0);
             this.HDD1storagechart.SuperscriptText = "HDD1";
             this.HDD1storagechart.TabIndex = 70;
-            this.HDD1storagechart.Text = "100%";
+            this.HDD1storagechart.Text = "?%";
             this.HDD1storagechart.TextMargin = new System.Windows.Forms.Padding(17, 0, 0, 0);
             this.toolTip1.SetToolTip(this.HDD1storagechart, "HDD 1 Storage");
-            this.HDD1storagechart.Value = 20;
+            this.HDD1storagechart.Value = 68;
             this.HDD1storagechart.Visible = false;
             // 
             // panel5
@@ -910,6 +684,168 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(68, 720);
             this.panel5.TabIndex = 67;
+            // 
+            // uploadchart
+            // 
+            this.uploadchart.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.uploadchart.AnimationSpeed = 500;
+            this.uploadchart.BackColor = System.Drawing.Color.Transparent;
+            this.uploadchart.Font = new System.Drawing.Font("Lucida Console", 15.25F, System.Drawing.FontStyle.Bold);
+            this.uploadchart.ForeColor = System.Drawing.Color.SteelBlue;
+            this.uploadchart.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.uploadchart.InnerMargin = 2;
+            this.uploadchart.InnerWidth = 2;
+            this.uploadchart.Location = new System.Drawing.Point(523, -1);
+            this.uploadchart.MarqueeAnimationSpeed = 2000;
+            this.uploadchart.Name = "uploadchart";
+            this.uploadchart.OuterColor = System.Drawing.Color.Gray;
+            this.uploadchart.OuterMargin = -24;
+            this.uploadchart.OuterWidth = 25;
+            this.uploadchart.ProgressColor = System.Drawing.Color.SteelBlue;
+            this.uploadchart.ProgressWidth = 10;
+            this.uploadchart.SecondaryFont = new System.Drawing.Font("Lucida Console", 12F);
+            this.uploadchart.Size = new System.Drawing.Size(150, 150);
+            this.uploadchart.StartAngle = 270;
+            this.uploadchart.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.uploadchart.SubscriptColor = System.Drawing.Color.White;
+            this.uploadchart.SubscriptMargin = new System.Windows.Forms.Padding(-45, 5, 0, 0);
+            this.uploadchart.SubscriptText = "900KBPS";
+            this.uploadchart.SuperscriptColor = System.Drawing.Color.White;
+            this.uploadchart.SuperscriptMargin = new System.Windows.Forms.Padding(-48, -5, 0, 0);
+            this.uploadchart.SuperscriptText = "Upload";
+            this.uploadchart.TabIndex = 76;
+            this.uploadchart.Text = "100%";
+            this.uploadchart.TextMargin = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.uploadchart.Value = 68;
+            // 
+            // downloadchart
+            // 
+            this.downloadchart.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.downloadchart.AnimationSpeed = 500;
+            this.downloadchart.BackColor = System.Drawing.Color.Transparent;
+            this.downloadchart.Font = new System.Drawing.Font("Lucida Console", 15.25F, System.Drawing.FontStyle.Bold);
+            this.downloadchart.ForeColor = System.Drawing.Color.SteelBlue;
+            this.downloadchart.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.downloadchart.InnerMargin = 2;
+            this.downloadchart.InnerWidth = 2;
+            this.downloadchart.Location = new System.Drawing.Point(679, -1);
+            this.downloadchart.MarqueeAnimationSpeed = 2000;
+            this.downloadchart.Name = "downloadchart";
+            this.downloadchart.OuterColor = System.Drawing.Color.Gray;
+            this.downloadchart.OuterMargin = -24;
+            this.downloadchart.OuterWidth = 25;
+            this.downloadchart.ProgressColor = System.Drawing.Color.SteelBlue;
+            this.downloadchart.ProgressWidth = 10;
+            this.downloadchart.SecondaryFont = new System.Drawing.Font("Lucida Console", 12F);
+            this.downloadchart.Size = new System.Drawing.Size(150, 150);
+            this.downloadchart.StartAngle = 270;
+            this.downloadchart.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.downloadchart.SubscriptColor = System.Drawing.Color.White;
+            this.downloadchart.SubscriptMargin = new System.Windows.Forms.Padding(-45, 5, 0, 0);
+            this.downloadchart.SubscriptText = "900KBPS";
+            this.downloadchart.SuperscriptColor = System.Drawing.Color.White;
+            this.downloadchart.SuperscriptMargin = new System.Windows.Forms.Padding(-48, -5, 0, 0);
+            this.downloadchart.SuperscriptText = "Download";
+            this.downloadchart.TabIndex = 76;
+            this.downloadchart.Text = "100%";
+            this.downloadchart.TextMargin = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.downloadchart.Value = 68;
+            // 
+            // RAMP
+            // 
+            this.RAMP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.RAMP.Controls.Add(this.moboname);
+            this.RAMP.Controls.Add(this.button9);
+            this.RAMP.Controls.Add(this.RAMTV);
+            this.RAMP.Controls.Add(this.Ramchart);
+            this.RAMP.Controls.Add(this.pictureBox13);
+            this.RAMP.Controls.Add(this.pictureBox7);
+            this.RAMP.Location = new System.Drawing.Point(810, 151);
+            this.RAMP.Name = "RAMP";
+            this.RAMP.Size = new System.Drawing.Size(264, 569);
+            this.RAMP.TabIndex = 58;
+            // 
+            // moboname
+            // 
+            this.moboname.Font = new System.Drawing.Font("Lucida Sans", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moboname.ForeColor = System.Drawing.Color.White;
+            this.moboname.Location = new System.Drawing.Point(74, 2);
+            this.moboname.Name = "moboname";
+            this.moboname.Size = new System.Drawing.Size(187, 72);
+            this.moboname.TabIndex = 76;
+            this.moboname.Text = "Manufacturer: Intel ";
+            this.moboname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // RAMTV
+            // 
+            this.RAMTV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(49)))), ((int)(((byte)(56)))));
+            this.RAMTV.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.RAMTV.Font = new System.Drawing.Font("Lucida Sans", 10F, System.Drawing.FontStyle.Bold);
+            this.RAMTV.ForeColor = System.Drawing.Color.White;
+            this.RAMTV.Location = new System.Drawing.Point(3, 103);
+            this.RAMTV.Name = "RAMTV";
+            treeNode13.Name = "Total Ram";
+            treeNode13.Text = "Total Ram";
+            treeNode14.Name = "Free Ram";
+            treeNode14.Text = "Free Ram";
+            treeNode15.Name = "RAM";
+            treeNode15.Text = "RAM";
+            this.RAMTV.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode15});
+            this.RAMTV.Scrollable = false;
+            this.RAMTV.Size = new System.Drawing.Size(264, 23);
+            this.RAMTV.TabIndex = 77;
+            // 
+            // Ramchart
+            // 
+            this.Ramchart.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.Ramchart.AnimationSpeed = 500;
+            this.Ramchart.BackColor = System.Drawing.Color.Transparent;
+            this.Ramchart.Font = new System.Drawing.Font("Lucida Console", 18.25F, System.Drawing.FontStyle.Bold);
+            this.Ramchart.ForeColor = System.Drawing.Color.OrangeRed;
+            this.Ramchart.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.Ramchart.InnerMargin = 2;
+            this.Ramchart.InnerWidth = -1;
+            this.Ramchart.Location = new System.Drawing.Point(33, 230);
+            this.Ramchart.MarqueeAnimationSpeed = 2000;
+            this.Ramchart.Name = "Ramchart";
+            this.Ramchart.OuterColor = System.Drawing.Color.Gray;
+            this.Ramchart.OuterMargin = -26;
+            this.Ramchart.OuterWidth = 25;
+            this.Ramchart.ProgressColor = System.Drawing.Color.OrangeRed;
+            this.Ramchart.ProgressWidth = 15;
+            this.Ramchart.SecondaryFont = new System.Drawing.Font("Lucida Console", 11F);
+            this.Ramchart.Size = new System.Drawing.Size(200, 200);
+            this.Ramchart.StartAngle = 270;
+            this.Ramchart.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.Ramchart.SubscriptColor = System.Drawing.Color.White;
+            this.Ramchart.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
+            this.Ramchart.SubscriptText = "";
+            this.Ramchart.SuperscriptColor = System.Drawing.Color.White;
+            this.Ramchart.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
+            this.Ramchart.SuperscriptText = "";
+            this.Ramchart.TabIndex = 69;
+            this.Ramchart.Text = "?%";
+            this.Ramchart.TextMargin = new System.Windows.Forms.Padding(0);
+            this.Ramchart.Value = 68;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(46)))), ((int)(((byte)(111)))));
+            this.button12.BackgroundImage = global::WMinfo_Front.Properties.Resources.marquee;
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(46)))), ((int)(((byte)(111)))));
+            this.button12.Location = new System.Drawing.Point(2, 414);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(62, 56);
+            this.button12.TabIndex = 71;
+            this.button12.TabStop = false;
+            this.toolTip1.SetToolTip(this.button12, "Remote Desktop");
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button11
             // 
@@ -1033,96 +969,114 @@
             this.toolTip1.SetToolTip(this.button1, "ShutDown Remote PC");
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // uploadchart
+            // pictureBox14
             // 
-            this.uploadchart.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
-            this.uploadchart.AnimationSpeed = 500;
-            this.uploadchart.BackColor = System.Drawing.Color.Transparent;
-            this.uploadchart.Font = new System.Drawing.Font("Lucida Console", 15.25F, System.Drawing.FontStyle.Bold);
-            this.uploadchart.ForeColor = System.Drawing.Color.SteelBlue;
-            this.uploadchart.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.uploadchart.InnerMargin = 2;
-            this.uploadchart.InnerWidth = 2;
-            this.uploadchart.Location = new System.Drawing.Point(523, -1);
-            this.uploadchart.MarqueeAnimationSpeed = 2000;
-            this.uploadchart.Name = "uploadchart";
-            this.uploadchart.OuterColor = System.Drawing.Color.Gray;
-            this.uploadchart.OuterMargin = -24;
-            this.uploadchart.OuterWidth = 25;
-            this.uploadchart.ProgressColor = System.Drawing.Color.SteelBlue;
-            this.uploadchart.ProgressWidth = 10;
-            this.uploadchart.SecondaryFont = new System.Drawing.Font("Lucida Console", 12F);
-            this.uploadchart.Size = new System.Drawing.Size(150, 150);
-            this.uploadchart.StartAngle = 270;
-            this.uploadchart.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.uploadchart.SubscriptColor = System.Drawing.Color.White;
-            this.uploadchart.SubscriptMargin = new System.Windows.Forms.Padding(-45, 5, 0, 0);
-            this.uploadchart.SubscriptText = "900KBPS";
-            this.uploadchart.SuperscriptColor = System.Drawing.Color.White;
-            this.uploadchart.SuperscriptMargin = new System.Windows.Forms.Padding(-48, -5, 0, 0);
-            this.uploadchart.SuperscriptText = "Upload";
-            this.uploadchart.TabIndex = 76;
-            this.uploadchart.Text = "100%";
-            this.uploadchart.TextMargin = new System.Windows.Forms.Padding(27, 0, 0, 0);
-            this.uploadchart.Value = 68;
+            this.pictureBox14.Image = global::WMinfo_Front.Properties.Resources.nvidia;
+            this.pictureBox14.Location = new System.Drawing.Point(82, 3);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(55, 72);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 69;
+            this.pictureBox14.TabStop = false;
             // 
-            // downloadchart
+            // button6
             // 
-            this.downloadchart.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
-            this.downloadchart.AnimationSpeed = 500;
-            this.downloadchart.BackColor = System.Drawing.Color.Transparent;
-            this.downloadchart.Font = new System.Drawing.Font("Lucida Console", 15.25F, System.Drawing.FontStyle.Bold);
-            this.downloadchart.ForeColor = System.Drawing.Color.SteelBlue;
-            this.downloadchart.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.downloadchart.InnerMargin = 2;
-            this.downloadchart.InnerWidth = 2;
-            this.downloadchart.Location = new System.Drawing.Point(679, -1);
-            this.downloadchart.MarqueeAnimationSpeed = 2000;
-            this.downloadchart.Name = "downloadchart";
-            this.downloadchart.OuterColor = System.Drawing.Color.Gray;
-            this.downloadchart.OuterMargin = -24;
-            this.downloadchart.OuterWidth = 25;
-            this.downloadchart.ProgressColor = System.Drawing.Color.SteelBlue;
-            this.downloadchart.ProgressWidth = 10;
-            this.downloadchart.SecondaryFont = new System.Drawing.Font("Lucida Console", 12F);
-            this.downloadchart.Size = new System.Drawing.Size(150, 150);
-            this.downloadchart.StartAngle = 270;
-            this.downloadchart.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.downloadchart.SubscriptColor = System.Drawing.Color.White;
-            this.downloadchart.SubscriptMargin = new System.Windows.Forms.Padding(-45, 5, 0, 0);
-            this.downloadchart.SubscriptText = "900KBPS";
-            this.downloadchart.SuperscriptColor = System.Drawing.Color.White;
-            this.downloadchart.SuperscriptMargin = new System.Windows.Forms.Padding(-48, -5, 0, 0);
-            this.downloadchart.SuperscriptText = "Download";
-            this.downloadchart.TabIndex = 76;
-            this.downloadchart.Text = "100%";
-            this.downloadchart.TextMargin = new System.Windows.Forms.Padding(27, 0, 0, 0);
-            this.downloadchart.Value = 68;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
+            this.button6.BackgroundImage = global::WMinfo_Front.Properties.Resources.BT_double_arrow_left128x___Copy;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(3, 79);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(258, 19);
+            this.button6.TabIndex = 66;
+            this.button6.TabStop = false;
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // RAMP
+            // pictureBox9
             // 
-            this.RAMP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.RAMP.Controls.Add(this.moboname);
-            this.RAMP.Controls.Add(this.button9);
-            this.RAMP.Controls.Add(this.RAMTV);
-            this.RAMP.Controls.Add(this.Ramchart);
-            this.RAMP.Controls.Add(this.pictureBox13);
-            this.RAMP.Controls.Add(this.pictureBox7);
-            this.RAMP.Location = new System.Drawing.Point(810, 151);
-            this.RAMP.Name = "RAMP";
-            this.RAMP.Size = new System.Drawing.Size(264, 569);
-            this.RAMP.TabIndex = 58;
+            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
+            this.pictureBox9.Image = global::WMinfo_Front.Properties.Resources.exclamation_mark__1_;
+            this.pictureBox9.Location = new System.Drawing.Point(59, 5);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(17, 17);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 58;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
             // 
-            // moboname
+            // pictureBox5
             // 
-            this.moboname.Font = new System.Drawing.Font("Lucida Sans", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moboname.ForeColor = System.Drawing.Color.White;
-            this.moboname.Location = new System.Drawing.Point(74, 2);
-            this.moboname.Name = "moboname";
-            this.moboname.Size = new System.Drawing.Size(187, 72);
-            this.moboname.TabIndex = 76;
-            this.moboname.Text = "Manufacturer: Intel ";
-            this.moboname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBox5.Image = global::WMinfo_Front.Properties.Resources.graphic_card;
+            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(73, 72);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 56;
+            this.pictureBox5.TabStop = false;
+            // 
+            // gpunotdetected
+            // 
+            this.gpunotdetected.Image = global::WMinfo_Front.Properties.Resources.Nocgpu__1_;
+            this.gpunotdetected.Location = new System.Drawing.Point(0, -1);
+            this.gpunotdetected.Name = "gpunotdetected";
+            this.gpunotdetected.Size = new System.Drawing.Size(264, 569);
+            this.gpunotdetected.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gpunotdetected.TabIndex = 70;
+            this.gpunotdetected.TabStop = false;
+            this.gpunotdetected.Visible = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::WMinfo_Front.Properties.Resources.cloud;
+            this.pictureBox12.Location = new System.Drawing.Point(417, -2);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(100, 151);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 64;
+            this.pictureBox12.TabStop = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
+            this.button8.BackgroundImage = global::WMinfo_Front.Properties.Resources.BT_double_arrow_left128x___Copy;
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(3, 79);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(258, 19);
+            this.button8.TabIndex = 70;
+            this.button8.TabStop = false;
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
+            this.pictureBox11.Image = global::WMinfo_Front.Properties.Resources.exclamation_mark__1_;
+            this.pictureBox11.Location = new System.Drawing.Point(41, 10);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(17, 17);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 59;
+            this.pictureBox11.TabStop = false;
+            this.pictureBox11.Visible = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::WMinfo_Front.Properties.Resources.hard_disk;
+            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(63, 72);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 56;
+            this.pictureBox6.TabStop = false;
             // 
             // button9
             // 
@@ -1140,59 +1094,6 @@
             this.button9.TabStop = false;
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // RAMTV
-            // 
-            this.RAMTV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(49)))), ((int)(((byte)(56)))));
-            this.RAMTV.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.RAMTV.Font = new System.Drawing.Font("Lucida Sans", 10F, System.Drawing.FontStyle.Bold);
-            this.RAMTV.ForeColor = System.Drawing.Color.White;
-            this.RAMTV.Location = new System.Drawing.Point(3, 103);
-            this.RAMTV.Name = "RAMTV";
-            treeNode32.Name = "Total Ram";
-            treeNode32.Text = "Total Ram";
-            treeNode33.Name = "Free Ram";
-            treeNode33.Text = "Free Ram";
-            treeNode34.Name = "RAM";
-            treeNode34.Text = "RAM";
-            this.RAMTV.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode34});
-            this.RAMTV.Scrollable = false;
-            this.RAMTV.Size = new System.Drawing.Size(264, 23);
-            this.RAMTV.TabIndex = 77;
-            // 
-            // Ramchart
-            // 
-            this.Ramchart.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
-            this.Ramchart.AnimationSpeed = 500;
-            this.Ramchart.BackColor = System.Drawing.Color.Transparent;
-            this.Ramchart.Font = new System.Drawing.Font("Lucida Console", 18.25F, System.Drawing.FontStyle.Bold);
-            this.Ramchart.ForeColor = System.Drawing.Color.OrangeRed;
-            this.Ramchart.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.Ramchart.InnerMargin = 2;
-            this.Ramchart.InnerWidth = -1;
-            this.Ramchart.Location = new System.Drawing.Point(33, 230);
-            this.Ramchart.MarqueeAnimationSpeed = 2000;
-            this.Ramchart.Name = "Ramchart";
-            this.Ramchart.OuterColor = System.Drawing.Color.Gray;
-            this.Ramchart.OuterMargin = -26;
-            this.Ramchart.OuterWidth = 25;
-            this.Ramchart.ProgressColor = System.Drawing.Color.OrangeRed;
-            this.Ramchart.ProgressWidth = 15;
-            this.Ramchart.SecondaryFont = new System.Drawing.Font("Lucida Console", 11F);
-            this.Ramchart.Size = new System.Drawing.Size(200, 200);
-            this.Ramchart.StartAngle = 270;
-            this.Ramchart.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.Ramchart.SubscriptColor = System.Drawing.Color.White;
-            this.Ramchart.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
-            this.Ramchart.SubscriptText = "";
-            this.Ramchart.SuperscriptColor = System.Drawing.Color.White;
-            this.Ramchart.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
-            this.Ramchart.SuperscriptText = "";
-            this.Ramchart.TabIndex = 69;
-            this.Ramchart.Text = "100%";
-            this.Ramchart.TextMargin = new System.Windows.Forms.Padding(0);
-            this.Ramchart.Value = 20;
             // 
             // pictureBox13
             // 
@@ -1216,15 +1117,55 @@
             this.pictureBox7.TabIndex = 57;
             this.pictureBox7.TabStop = false;
             // 
-            // pictureBox12
+            // pictureBox4
             // 
-            this.pictureBox12.Image = global::WMinfo_Front.Properties.Resources.cloud;
-            this.pictureBox12.Location = new System.Drawing.Point(417, -2);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(100, 151);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 64;
-            this.pictureBox12.TabStop = false;
+            this.pictureBox4.Image = global::WMinfo_Front.Properties.Resources.intel;
+            this.pictureBox4.Location = new System.Drawing.Point(72, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(70, 73);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 68;
+            this.pictureBox4.TabStop = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
+            this.button7.BackgroundImage = global::WMinfo_Front.Properties.Resources.BT_double_arrow_left128x___Copy;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(3, 79);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(258, 19);
+            this.button7.TabIndex = 67;
+            this.button7.TabStop = false;
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(182)))), ((int)(((byte)(85)))));
+            this.pictureBox8.Image = global::WMinfo_Front.Properties.Resources.exclamation_mark__1_;
+            this.pictureBox8.Location = new System.Drawing.Point(38, 42);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(17, 17);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 57;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Visible = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::WMinfo_Front.Properties.Resources.cpu;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(63, 76);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 56;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -1256,24 +1197,6 @@
             this.pictureBox10.TabIndex = 49;
             this.pictureBox10.TabStop = false;
             // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(46)))), ((int)(((byte)(111)))));
-            this.button12.BackgroundImage = global::WMinfo_Front.Properties.Resources.sitemap__1_;
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(46)))), ((int)(((byte)(111)))));
-            this.button12.Location = new System.Drawing.Point(2, 414);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(62, 56);
-            this.button12.TabIndex = 71;
-            this.button12.TabStop = false;
-            this.toolTip1.SetToolTip(this.button12, "Remote TaskViewer");
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1296,22 +1219,22 @@
             this.Name = "Home";
             this.Size = new System.Drawing.Size(1141, 720);
             this.CPUP.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.GPUP.ResumeLayout(false);
+            this.HDDP.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.RAMP.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gpunotdetected)).EndInit();
-            this.HDDP.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.RAMP.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pingi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();

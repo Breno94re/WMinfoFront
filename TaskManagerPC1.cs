@@ -32,7 +32,7 @@ namespace WMinfo_Front
             {
                 
                 Thread.Sleep(50);
-                ListenerPC1.responses = "TaskView";
+                ListenerPC1.SetResponse("TaskView");
                 await Task.Run(() => TaskViewListenerPC1.StartListenAsync());
                 string[] split = TaskViewListenerPC1.consoletext.Split('\n');
                 //string[] split2 = TaskViewListenerPC1.networktext.Split('$');
@@ -117,7 +117,7 @@ namespace WMinfo_Front
 
         private void TaskManagerPC1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            ListenerPC1.responses = "Accept";
+            ListenerPC1.SetResponse("Accept");
             Home.pcform1.Dispose();
             Home.pcform1 = null;
             Home.openform1 = false;
